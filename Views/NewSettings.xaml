@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BambuLab_FailureDetection.Views.NewSettings"
+             Title="Settings">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            >
+            <Label
+                Text="Printer Config"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+            <Frame
+                BackgroundColor="Transparent"
+                BorderColor="Transparent"
+                >
+                <StackLayout
+                    x:Name="SettingsFrame" AutomationProperties.IsInAccessibleTree="True" Spacing="25">
+                    
+                </StackLayout>
+            </Frame>
+            <Frame
+                BorderColor="Transparent"
+                BackgroundColor="Transparent"
+                CornerRadius="5"
+                Padding="8"
+                >
+                <StackLayout
+                    x:Name="SettingsButtons">
+                    
+                </StackLayout>
+            </Frame>
+            <Button
+                x:Name="SaveButton"
+                Clicked="SaveButton_Clicked"
+                Text="Save"
+                ></Button>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

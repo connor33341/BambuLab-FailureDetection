@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BambuLab_FailureDetection.Views.Settings"
+             Title="Settings">
+    <ScrollView>
+        <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25">
+
+            <Label
+            Text="Printer Config"
+            Style="{StaticResource Headline}"
+            SemanticProperties.HeadingLevel="Level1" />
+
+            <Line></Line>
+
+            <Label
+                Text="Printer Url"
+                Style="{StaticResource SubHeadline}">
+            </Label>
+
+            <Entry
+                MaxLength="30"
+                Style="{StaticResource CommonEntryStyle}"
+                Text="10.0.0.1"
+                ></Entry>
+
+            <Label
+                Text="Printer Port"
+                Style="{StaticResource SubHeadline}">
+            </Label>
+
+            <Entry
+                MaxLength="30"
+                Style="{StaticResource CommonEntryStyle}"
+                Text="8883"
+            ></Entry>
+
+            <Label
+                Text="Printer SN"
+                Style="{StaticResource SubHeadline}">
+            </Label>
+
+            <Label
+                Text="Guide: https://connor33341.github.io/guides/bambulab.html"
+                TextColor="BlueViolet"
+            ></Label>
+            
+            <Entry
+                MaxLength="30"
+                Style="{StaticResource CommonEntryStyle}"
+                Text=""
+            ></Entry>
+
+            <Label
+                Text="Printer Access Code"
+                Style="{StaticResource SubHeadline}">   
+            </Label>
+
+            <Label
+                Text="Guide: https://connor33341.github.io/guides/bambulab.html"
+                TextColor="BlueViolet"
+            ></Label>
+            
+            <Entry
+                MaxLength="30"
+                Style="{StaticResource CommonEntryStyle}"
+                Text=""
+            ></Entry>
+
+            <Label
+                Text="Additional Config"
+                Style="{StaticResource SubHeadline}"
+            ></Label>
+
+            <Frame
+                HasShadow="True"
+                CornerRadius="1"
+                >
+                <Label
+                    Text="Enable BambuBoard"
+                    TextColor="BlueViolet"
+                    ></Label>
+                
+            </Frame>
+
+            <Button
+            x:Name="SaveButton"
+            Text="Save" 
+            SemanticProperties.Hint="dotnet"
+            Clicked="SaveButton_Clicked"
+            HorizontalOptions="Fill" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
