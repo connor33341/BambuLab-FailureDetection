@@ -69,4 +69,12 @@
 	  <ProjectReference Include="lib\confighandler\confighandler.csproj" />
 	</ItemGroup>
 
+	<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+	  <Exec Command="call scripts\startprebuild.bat&#xD;&#xA;call lib\PythonAI\build.bat&#xD;&#xA;PowerShell scripts\prebuild\InstallPythonNet.ps1&#xD;&#xA;call scripts\endprebuild.bat" />
+	</Target>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+	  <Exec Command="call scripts\startpostbuild.bat&#xD;&#xA;call scripts\endpostbuild.bat" />
+	</Target>
+
 </Project>
