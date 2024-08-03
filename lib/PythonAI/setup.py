@@ -1,11 +1,12 @@
 from setuptools import setup, Extension
 from Cython.Build import cythonize
 import numpy
+#CWD: BambuLab-FailureDetection
 
 ext_modules = [
     Extension(
         "PythonAI",
-        sources=["PythonAI.c"],
+        sources=["lib\PythonAI\PythonAI.cpp"],
         include_dirs=[numpy.get_include()]
     )
 ]

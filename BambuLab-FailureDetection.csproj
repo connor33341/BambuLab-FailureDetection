@@ -38,7 +38,8 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
-		<GenerateDocumentationFile>False</GenerateDocumentationFile>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<DocumentationFile>docs\generated</DocumentationFile>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -70,7 +71,7 @@
 	</ItemGroup>
 
 	<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-	  <Exec Command="call scripts\startprebuild.bat&#xD;&#xA;call lib\PythonAI\build.bat&#xD;&#xA;PowerShell scripts\prebuild\InstallPythonNet.ps1&#xD;&#xA;call scripts\endprebuild.bat" />
+	  <Exec Command="call scripts\startprebuild.bat&#xD;&#xA;call lib\PythonAI\build.bat&#xD;&#xA;call scripts\endprebuild.bat" />
 	</Target>
 
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
