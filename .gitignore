@@ -1,5 +1,11 @@
 *.exe
 *.dll
+*.bin
+*.out
+*.so
+*.v8
+*.v8.bin
+*.lib
 *.pyc
 *.pyd
 *.png

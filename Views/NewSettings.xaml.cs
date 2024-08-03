@@ -12,7 +12,7 @@ public partial class NewSettings : ContentPage
 		["Printer URL","IP Address of your printer 10.0.0.1 by default","10.0.0.1",""],
 		["Printer Port","Port of your printer. Defaults to 8080","8080",""]
 		];
-	string[] Values = [];
+	string[] Values = ["","","","",""];
 	public NewSettings()
 	{
 		InitializeComponent();
@@ -97,12 +97,13 @@ public partial class NewSettings : ContentPage
 		configHandler.ValidSubKey = true;
 
 		string[][] OutputData = [];
-		for (int i = 0; i < ConfigList.Length-1; i++)
+		for (int i = 0; i < ConfigList.Length; i++)
 		{
 			string[] ConfigData = ConfigList[i];
 			string ValueName = ConfigData[0];
 			string DefaultValue = ConfigData[2];
 			string Data = Values[i];
+			Console.Out.Write("Value: "+ValueName+" Data: "+Data);
 
 			if (Data == "")
 			{
