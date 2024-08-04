@@ -78,7 +78,7 @@
 	</ItemGroup>
 
 	<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-	  <Exec Command="call scripts\startprebuild.bat&#xD;&#xA;call lib\PythonAI\build.bat&#xD;&#xA;call scripts\endprebuild.bat" />
+	  <Exec Command="call scripts\startprebuild.bat&#xD;&#xA;call scripts\endprebuild.bat" />
 	</Target>
 
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">

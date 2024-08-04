@@ -24,7 +24,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="PythonAI.py" />
-    <Compile Include="setupc.py" />
     <Compile Include="setup.py">
       <SubType>Code</SubType>
     </Compile>
@@ -40,6 +39,7 @@
   <!--<Target Name="CoreCompile" />-->
   <Target Name="CoreCompile" />
   <Target Name="BeforeBuild">
+    <Exec Command="call build.bat" />
   </Target>
   <Target Name="AfterBuild">
   </Target>

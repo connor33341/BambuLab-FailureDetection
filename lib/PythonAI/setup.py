@@ -6,7 +6,7 @@ import numpy
 ext_modules = [
     Extension(
         "PythonAI",
-        sources=["lib\PythonAI\PythonAI.cpp"],
+        sources=["PythonAI.cpp"],
         include_dirs=[numpy.get_include()]
     )
 ]

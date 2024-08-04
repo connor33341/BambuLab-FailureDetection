@@ -1,113 +1,59 @@
 @echo off
-@rem Build [PythonAI.py | PythonAI.pyc] to [PythonAI.c | PythonAI.cpp] to PythonAI.pyd
-setlocal
+@rem Property of the BambuLab-FailureDetection project
+@rem connor33341
 
-@rem Global Build Config
-set "buildenable=false"
+@rem Config
+set "Debug=false" :: Enable Pause
+set "RequirementsFile=requirements.txt" :: PIP Requirements
+set "EntryPoint=PythonAI.py" :: Main PythonFile
+set "SetupScript=setup.py" :: Setup Script
+set "OutputFile=PythonAI.cp312-win_amd64.pyd" :: Created PYD
+set "OutputDir=..\..\" :: BambuLab-FailureDetection
+set "PYDName=PythonAI.pyd" :: Name of the PYD file in the primary dir
+set "BuildCython=true" :: Generate C/C++ File using cython
+set "BuildCythonLang=cpp" :: Lang C/C++
+set "BuildSetup=true" :: Run the setup.py program to build the .pyd
+set "CorrectDir=true" :: Move an rename the genereated .pyd
 
-@rem Build Config
-set "buildpyc=false"
-set "buildpyd=true"
-set "buildc=false"
-set "buildcpp=true"
-set "taskbuild=true"
-set "debugpause=true"
-
-@rem BuildTask
-set "task=cppbuild"
-
-@rem Build
+@rem Main Script
 echo Building PythonAI.pyproj
-if %buildenable% == "false" (
-	echo Global Build Disabled
-	exit /b 0
-)
-if exist "\lib\PythonAI\requirements.txt" (
-	echo Installing Requirements.txt
-	pip install -r C:\Users\conno\GitHub\BambuLab-FailureDetection\lib\PythonAI\requirements.txt
-	echo Requirements Installed
-)
-echo Moving to Temp
-copy /y lib\PythonAI\PythonAI.py temp\PythonAI\PythonAIC.py
-echo Running Main
-if %taskbuild%=="true" (
-	goto taskhandler
-)
-:taskhandler
-echo Running TaskHandler
-if %buildcpp%=="true" (
-	set "task=cppbuild"
-	set "buildcpp=false"
-)
-if %buildpyd%=="true" (
-	set "task=cppsetup"
-	set "buildpyd=false"
-)
-goto %task%
-:cppbuild
-cython --cplus -3 lib\PythonAI\PythonAI.py && (
-	echo Cythonize C++ Successful
+
+if exist "%RequirementsFile%" (
+	echo Installing RequirementsFile
+	pip install -r "%RequirementsFile%"
 ) || (
-	echo Cythonize C++ Failed
+	echo RequirementsFile not found
 )
-@rem timeout /t 10 /nobreak
-goto taskhandler
-:cbuild
-cython -3 temp\PythonAI\PythonAIC.py && (
-	echo Cythonize C Successful
-) || (
-	echo Cythonize C Failed
-)
-:cppsetup
-echo Building PythonAI.py using setup.py using C++
-@rem timeout /t 10 /nobreak
-python lib\PythonAI\setup.py build_ext --inplace && (
-	echo C++ Build Successful
-) || (
-	echo C++ Build Failed
-)
-exit /b 0
-goto end
-:pycsetup
-echo Building PythonAI.pyc from PythonAI.py
-@rem timeout /t 10 /nobreak
-python -m compileall temp\PythonAI\PythonAIC.py && (
-	echo PYC Build Successful
-) || (
-	echo PYC Build Failed
-	echo Trying with py instead of python
-	@rem timeout /t 10 /nobreak
-	py -m compileall temp\PythonAI\PythonAIC.py && (
-		echo PYC Build Successful
-	) || (
-		echo PYC Build Failed
+
+if "%BuildCython%" == "true" (
+	echo Building Cython
+	if "%BuildCythonLang%" == "cpp" (
+		echo Building Cython using C++
+		cython --cplus -3 "%EntryPoint%"
 	)
-)
-:csetup
-echo Building PythonAI.py using setup.py using C
-echo WARNING: Only works on developer builds of BambuLab-FailureDetection using legacy C PYD files, not bundled in normal builds.
-echo WARNING: This will error, dont wory it built correctly.
-@rem timeout /t 10 /nobreak
-python lib\PythonAI\setupc.py build_ext --inplace && (
-	echo C Build Successful
-) || (
-	echo C Build Failed
-	echo Trying with py instead of python
-	@rem timeout /t 10 /nobreak
-	py lib\PythonAI\setupc.py build_ext --inplace && (
-		echo C Build Successful
-	) || (
-		echo C Build Failed after 2 attempts
+	if "%BuildCythonLang%" == "c" (
+		echo Building Cython using C
+		cython -3 "%EntryPoint%"
 	)
+) || (
+	echo Skipping Cython Build
 )
-:end
-if %debugpause%=="true"(
+
+if "%BuildSetup%" == "true" (
+	echo Building PythonAI.pyd
+	python "%SetupScript%" build_ext --inplace
+) || (
+	echo Skipping PythonAI.pyd
+)
+
+if "%CorrectDir%" == "true" (
+	echo Correcting OutputDir
+	copy "%OutputFile%" "%OutputDir%"
+	ren "%OutputDir%%OutputFile%" "%PYDName%"
+	del "%OutputFile%"
+)
+
+if "%Debug%"=="true" (
 	pause
 )
-if errorlevel 1 (
-	echo Non-Zero Error Level
-	exit /b 0
-)
 exit /b 0
-@rem exit 0
-endlocal
