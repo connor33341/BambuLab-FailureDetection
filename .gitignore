@@ -38,3 +38,6 @@ bin
 cache
 temp
 __pycache__
+
+# Work in Progress Files
+log4net.conf

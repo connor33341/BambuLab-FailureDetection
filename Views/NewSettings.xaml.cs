@@ -1,12 +1,14 @@
 using confighandler;
-using System.Collections.Generic;
+using log4net;
+using log4net.Config;
 
 namespace BambuLab_FailureDetection.Views;
 
 public partial class NewSettings : ContentPage
 {
-	string SettingsKey = @"SOFTWARE\connor33341\BambuLabFailureDetector";
-	string[][] ConfigList = [
+    private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+	private static readonly string SettingsKey = @"SOFTWARE\connor33341\BambuLabFailureDetector";
+	readonly string[][] ConfigList = [
 		["Printer Name","Enter a name for your printer, this will show up on alerts (if enabled).","Bambulab Printer",""],
 		["Printer SN","Enter your printer SN, found in settings on your printer","",""],
 		["Printer Access Code","Found in settings on your printer","",""],
@@ -23,7 +25,8 @@ public partial class NewSettings : ContentPage
 
 	public void SetupCards()
 	{
-		for (int i = 0; i < ConfigList.Length - 1; i++) { 
+        if (log.IsInfoEnabled) log.Info("[Views\\NewSettings.xmal.cs]: Setting up cards");
+        for (int i = 0; i < ConfigList.Length - 1; i++) { 
 			string[] ConfigData = ConfigList[i];
 			string Title = ConfigData[0];
 			string Description = ConfigData[1];

@@ -61,9 +61,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="log4net" Version="2.0.17" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+		<PackageReference Include="MQTTnet" Version="4.3.6.1152" />
 		<PackageReference Include="pythonnet" Version="3.0.3" />
 	</ItemGroup>
 
