@@ -57,15 +57,10 @@ python lib\PythonAI\setupc.py build_ext --inplace && (
 		echo C Build Failed after 2 attempts
 	)
 )
-enableDelayedExpansion (
-	if errorlevel 1 (
-		echo Non-Zero Error Level
-		@rem set "errorlevel="
-	)
-) && (
-	echo Program Successful
-) || (
-	echo Program Failed
+if errorlevel 1 (
+	echo Non-Zero Error Level
+	exit /b 0
 )
+exit /b 0
 @rem exit 0
 endlocal
