@@ -1,4 +1,5 @@
 using confighandler;
+using System.Collections.Generic;
 
 namespace BambuLab_FailureDetection.Views;
 
@@ -12,7 +13,8 @@ public partial class NewSettings : ContentPage
 		["Printer URL","IP Address of your printer 10.0.0.1 by default","10.0.0.1",""],
 		["Printer Port","Port of your printer. Defaults to 8080","8080",""]
 		];
-	string[] Values = ["","","","",""];
+	List<string> Values = new List<string>();
+	List<Entry> EntryList = new List<Entry>();
 	public NewSettings()
 	{
 		InitializeComponent();
@@ -57,7 +59,7 @@ public partial class NewSettings : ContentPage
 			{
 				//Console.WriteLine(i);
 				//ConfigList[i][3] = e.NewTextValue;
-				Values[i] = e.NewTextValue;
+				//Values.Add(e.NewTextValue);
 			};
 
 			BoxView Line2 = new BoxView
@@ -86,6 +88,7 @@ public partial class NewSettings : ContentPage
 			Card.Content = Layout;
 			
 			SettingsFrame.Add(Card);
+			EntryList.Add(TextInput);
 
 		}
 	}
@@ -96,6 +99,11 @@ public partial class NewSettings : ContentPage
 		configHandler.SubKey = SettingsKey;
 		configHandler.ValidSubKey = true;
 
+		for (int i = 0; i < EntryList.Count; i++)
+		{
+			Entry TextInput = EntryList[i];
+			Values.Add(TextInput.Text);
+		}
 		string[][] OutputData = [];
 		for (int i = 0; i < ConfigList.Length; i++)
 		{
