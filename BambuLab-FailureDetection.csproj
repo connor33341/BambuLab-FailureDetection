@@ -61,16 +61,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="PythonAI.cp312-win_amd64.pyd" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Content Include="PythonAI.cp312-win_amd64.pyd">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </Content>
-	</ItemGroup>
-
-	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
@@ -79,6 +69,12 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="lib\confighandler\confighandler.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="PythonAI.cp312-win_amd64.pyd">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
 	</ItemGroup>
 
 	<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
