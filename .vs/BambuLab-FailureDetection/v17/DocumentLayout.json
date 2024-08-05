@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF294F85-F7C0-4769-9C20-7145705D250E}|lib\\confighandler\\confighandler.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\lib\\confighandler\\confighandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF294F85-F7C0-4769-9C20-7145705D250E}|lib\\confighandler\\confighandler.csproj|solutionrelative:lib\\confighandler\\confighandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\views\\newsettings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|solutionrelative:views\\newsettings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF294F85-F7C0-4769-9C20-7145705D250E}|lib\\confighandler\\confighandler.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\lib\\confighandler\\confighandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF294F85-F7C0-4769-9C20-7145705D250E}|lib\\confighandler\\confighandler.csproj|solutionrelative:lib\\confighandler\\confighandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -90,13 +90,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "confighandler.cs",
               "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\confighandler\\confighandler.cs",
               "RelativeDocumentMoniker": "lib\\confighandler\\confighandler.cs",
-              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\confighandler\\confighandler.cs*",
-              "RelativeToolTip": "lib\\confighandler\\confighandler.cs*",
-              "ViewState": "AQIAACIAAAAAAAAAAAAAADEAAAAfAAAA",
+              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\confighandler\\confighandler.cs",
+              "RelativeToolTip": "lib\\confighandler\\confighandler.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAuwDEAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T23:57:20.363Z",
               "EditorCaption": ""
@@ -128,13 +128,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "NewSettings.xaml.cs",
               "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\Views\\NewSettings.xaml.cs",
               "RelativeDocumentMoniker": "Views\\NewSettings.xaml.cs",
-              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\Views\\NewSettings.xaml.cs",
-              "RelativeToolTip": "Views\\NewSettings.xaml.cs",
-              "ViewState": "AQIAAG4AAAAAAAAAAAAAAIIAAAAJAAAA",
+              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\Views\\NewSettings.xaml.cs*",
+              "RelativeToolTip": "Views\\NewSettings.xaml.cs*",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAAB0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T21:03:55.928Z",
               "EditorCaption": ""

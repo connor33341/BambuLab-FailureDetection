@@ -27,7 +27,7 @@ public partial class NewSettings : ContentPage
 	public void SetupCards()
 	{
         if (log.IsInfoEnabled) log.Info("[Views\\NewSettings.xmal.cs]: Setting up cards");
-        for (int i = 0; i < ConfigList.Length - 1; i++) { 
+        for (int i = 0; i < ConfigList.Length; i++) { 
 			string[] ConfigData = ConfigList[i];
 			string Title = ConfigData[0];
 			string Description = ConfigData[1];
