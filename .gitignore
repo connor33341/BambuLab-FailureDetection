@@ -30,11 +30,15 @@
 *.obj
 *.temp
 *.tmp
+*.pfx
+*.txt
 setupc.py
+AndroidManifest.xml
 Build
 Debug
 .vs\ProjectEvaluation\
 bin
+obj
 cache
 temp
 __pycache__
