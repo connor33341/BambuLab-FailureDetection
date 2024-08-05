@@ -14,7 +14,10 @@ public partial class NewSettings : ContentPage
 		["Printer SN","Enter your printer SN, found in settings on your printer","",""],
 		["Printer Access Code","Found in settings on your printer","",""],
 		["Printer URL","IP Address of your printer 10.0.0.1 by default","10.0.0.1",""],
-		["Printer Port","Port of your printer. Defaults to 8080","8080",""]
+		["Bambulab Username","Optional, used by BambuBoard to display information using the BambuLab API","",""],
+		["Bambulab Password","Optional, used by BambuBoard to display information using the BambuLab API","",""],
+		["Enable BambuBoard","[true|false] More details: https://connor33341.github.io/tools/simple/bambulab/bambuboard.html","false",""],
+		["BambuBoard Port","Port of BambuBoard","8080",""],
 		];
 	List<string> Values = new List<string>();
 	List<Entry> EntryList = new List<Entry>();
@@ -93,7 +96,10 @@ public partial class NewSettings : ContentPage
 			
 			SettingsFrame.Add(Card);
 			EntryList.Add(TextInput);
-
+			ConfigHandler configHandler = new ConfigHandler();
+			configHandler.SubKey = SettingsKey;
+			configHandler.ValidSubKey = true;
+			TextInput.Text = configHandler.ReadKey(Title);
 		}
 	}
 
@@ -106,11 +112,17 @@ public partial class NewSettings : ContentPage
 		for (int i = 0; i < EntryList.Count; i++)
 		{
 			Entry TextInput = EntryList[i];
+			string[] ConfigData = ConfigList[i];
+			string DefaultValue = ConfigData[2];
 			string Text = TextInput.Text;
+			if (Text == "")
+			{
+				Text = DefaultValue;
+			}
 			Values.Add(Text);
 		}
 		string[][] OutputData = [];
-		for (int i = 0; i < ConfigList.Length-1; i++)
+		for (int i = 0; i < ConfigList.Length; i++)
 		{
 			string[] ConfigData = ConfigList[i];
 			string ValueName = ConfigData[0];
