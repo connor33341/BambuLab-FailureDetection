@@ -1,0 +1,1 @@
+in every lib delete the bin and obj folders
