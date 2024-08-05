@@ -1,6 +1,7 @@
 using confighandler;
 using log4net;
 using log4net.Config;
+using System.Diagnostics;
 
 namespace BambuLab_FailureDetection.Views;
 
@@ -105,17 +106,17 @@ public partial class NewSettings : ContentPage
 		for (int i = 0; i < EntryList.Count; i++)
 		{
 			Entry TextInput = EntryList[i];
-			Values.Add(TextInput.Text);
+			string Text = TextInput.Text;
+			Values.Add(Text);
 		}
 		string[][] OutputData = [];
-		for (int i = 0; i < ConfigList.Length; i++)
+		for (int i = 0; i < ConfigList.Length-1; i++)
 		{
 			string[] ConfigData = ConfigList[i];
 			string ValueName = ConfigData[0];
 			string DefaultValue = ConfigData[2];
 			string Data = Values[i];
-			Console.Out.Write("Value: "+ValueName+" Data: "+Data);
-
+			Debug.WriteLine("Value: " + ValueName + " Data: " + Data);
 			if (Data == "")
 			{
 				Data = DefaultValue;
@@ -127,7 +128,7 @@ public partial class NewSettings : ContentPage
             }
 			catch(Exception Ex)
 			{
-				Console.Error.WriteLine(Ex);
+				Debug.WriteLine(Ex);
 			}
         }
         await Navigation.PushAsync(new MainPage());

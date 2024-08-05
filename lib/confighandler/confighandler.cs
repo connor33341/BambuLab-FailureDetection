@@ -50,7 +50,7 @@ namespace confighandler
             if (RegKey != null)
             {
                 bool Exists = KeyExists(Key);
-                RegKey.SetValue(Key, Value);
+                RegKey.SetValue(Key, Value, RegistryValueKind.String);
                 RegKey.Close();
                 return true;
             }
