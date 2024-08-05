@@ -32,6 +32,8 @@
 *.tmp
 *.pfx
 *.txt
+*.pvk
+*.cer
 setupc.py
 AndroidManifest.xml
 Build
