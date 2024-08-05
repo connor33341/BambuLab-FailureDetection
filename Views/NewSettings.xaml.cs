@@ -99,7 +99,12 @@ public partial class NewSettings : ContentPage
 			ConfigHandler configHandler = new ConfigHandler();
 			configHandler.SubKey = SettingsKey;
 			configHandler.ValidSubKey = true;
-			TextInput.Text = configHandler.ReadKey(Title);
+			string SavedText = configHandler.ReadKey(Title);
+			if (SavedText == DefaultValue)
+			{
+				SavedText = "";
+			}
+			TextInput.Text = SavedText;
 		}
 	}
 
@@ -117,6 +122,7 @@ public partial class NewSettings : ContentPage
 			string Text = TextInput.Text;
 			if (Text == "")
 			{
+				Debug.WriteLine("Defaulting: "+DefaultValue);
 				Text = DefaultValue;
 			}
 			Values.Add(Text);
