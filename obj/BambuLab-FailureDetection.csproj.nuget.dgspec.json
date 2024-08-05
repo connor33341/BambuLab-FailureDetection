@@ -82,6 +82,10 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "dependencies": {
+            "FFMpegCore": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
             "MQTTnet": {
               "target": "Package",
               "version": "[4.3.6.1152, )"
@@ -137,6 +141,10 @@
         "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
+            "FFMpegCore": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
             "MQTTnet": {
               "target": "Package",
               "version": "[4.3.6.1152, )"
@@ -192,6 +200,10 @@
         "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
+            "FFMpegCore": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
             "MQTTnet": {
               "target": "Package",
               "version": "[4.3.6.1152, )"
@@ -248,6 +260,10 @@
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
+            "FFMpegCore": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
             "MQTTnet": {
               "target": "Package",
               "version": "[4.3.6.1152, )"

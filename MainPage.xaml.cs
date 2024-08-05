@@ -1,5 +1,5 @@
 ﻿#define USEPYD
-#define Beta
+//#define Beta
 
 using adminlib;
 

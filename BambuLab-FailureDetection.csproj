@@ -71,6 +71,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="FFMpegCore" Version="5.1.0" />
 		<PackageReference Include="log4net" Version="2.0.17" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
