@@ -1,6 +1,6 @@
 # BambuLab-FailureDetection
 
-Prebuild
+### Warning: Unfinished, project will be completed by next week
 
  Requires a model with a camera
 ---
