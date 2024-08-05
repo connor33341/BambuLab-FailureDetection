@@ -120,7 +120,11 @@ public partial class NewSettings : ContentPage
 			string[] ConfigData = ConfigList[i];
 			string DefaultValue = ConfigData[2];
 			string Text = TextInput.Text;
-			if (Text == "")
+            if (Text == null)
+            {
+                Text = "";
+            }
+            if (Text == "")
 			{
 				Debug.WriteLine("Defaulting: "+DefaultValue);
 				Text = DefaultValue;

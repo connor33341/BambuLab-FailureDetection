@@ -28,7 +28,7 @@
 
             <Button
                 x:Name="ViewButton"
-                Text="View" 
+                Text="Start/View" 
                 SemanticProperties.Hint="dotnet"
                 Clicked="ViewButton_Clicked"
                 HorizontalOptions="Fill" />

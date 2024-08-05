@@ -22,5 +22,10 @@
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="Views/NewSettings"
         ></ShellContent>
+    <ShellContent
+        Title="View Printer"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="Views/ViewPrinter"
+        ></ShellContent>
 
 </Shell>

@@ -84,6 +84,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\ViewPrinter.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Update="PythonAI.cp312-win_amd64.pyd">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>
