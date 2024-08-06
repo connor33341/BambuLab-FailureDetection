@@ -2,7 +2,7 @@
 <!--META: RepoLoaderTags{PRERELEASE}-->
 <!--META: Authors{connor33341}--->
 <!--META: EncodingData{Contents: UTF8<string>, MetaData: UTF16<bstring>}-->
-### Warning: Unfinished, project will be completed by next week
+### Warning: Unfinished, project will be completed in 2 weeks.
 
  Requires a model with a camera
 ---
