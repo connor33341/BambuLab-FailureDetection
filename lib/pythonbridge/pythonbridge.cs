@@ -1,4 +1,6 @@
-﻿using Python.Runtime;
+﻿#define USEPYD
+
+using Python.Runtime;
 using System.Diagnostics;
 
 namespace pythonbridge
@@ -9,6 +11,9 @@ namespace pythonbridge
         public dynamic Module;
         public void Init()
         {
+#if !USEPYD
+            return;
+#endif
             PythonEngine.Initialize();
             using (Py.GIL())
             {

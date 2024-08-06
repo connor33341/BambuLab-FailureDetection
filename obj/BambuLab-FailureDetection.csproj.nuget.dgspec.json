@@ -23,10 +23,8 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0-android",
-          "net8.0-ios",
           "net8.0-maccatalyst",
-          "net8.0-windows10.0.19041.0"
+          "net8.0-windows10.0.22000.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -34,22 +32,6 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-android34.0": {
-            "targetAlias": "net8.0-android",
-            "projectReferences": {
-              "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\confighandler\\confighandler.csproj": {
-                "projectPath": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\confighandler\\confighandler.csproj"
-              }
-            }
-          },
-          "net8.0-ios17.2": {
-            "targetAlias": "net8.0-ios",
-            "projectReferences": {
-              "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\confighandler\\confighandler.csproj": {
-                "projectPath": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\confighandler\\confighandler.csproj"
-              }
-            }
-          },
           "net8.0-maccatalyst17.2": {
             "targetAlias": "net8.0-maccatalyst",
             "projectReferences": {
@@ -58,8 +40,8 @@
               }
             }
           },
-          "net8.0-windows10.0.19041": {
-            "targetAlias": "net8.0-windows10.0.19041.0",
+          "net8.0-windows10.0.22000": {
+            "targetAlias": "net8.0-windows10.0.22000.0",
             "projectReferences": {
               "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\confighandler\\confighandler.csproj": {
                 "projectPath": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\confighandler\\confighandler.csproj"
@@ -79,124 +61,6 @@
         }
       },
       "frameworks": {
-        "net8.0-android34.0": {
-          "targetAlias": "net8.0-android",
-          "dependencies": {
-            "FFMpegCore": {
-              "target": "Package",
-              "version": "[5.1.0, )"
-            },
-            "MQTTnet": {
-              "target": "Package",
-              "version": "[4.3.6.1152, )"
-            },
-            "Microsoft.Extensions.Logging.Debug": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.Maui.Controls": {
-              "target": "Package",
-              "version": "[8.0.61, )"
-            },
-            "Microsoft.Maui.Controls.Compatibility": {
-              "target": "Package",
-              "version": "[8.0.61, )"
-            },
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.7, )",
-              "autoReferenced": true
-            },
-            "log4net": {
-              "target": "Package",
-              "version": "[2.0.17, )"
-            },
-            "pythonnet": {
-              "target": "Package",
-              "version": "[3.0.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.Android": {
-              "privateAssets": "all"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
-        },
-        "net8.0-ios17.2": {
-          "targetAlias": "net8.0-ios",
-          "dependencies": {
-            "FFMpegCore": {
-              "target": "Package",
-              "version": "[5.1.0, )"
-            },
-            "MQTTnet": {
-              "target": "Package",
-              "version": "[4.3.6.1152, )"
-            },
-            "Microsoft.Extensions.Logging.Debug": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.Maui.Controls": {
-              "target": "Package",
-              "version": "[8.0.61, )"
-            },
-            "Microsoft.Maui.Controls.Compatibility": {
-              "target": "Package",
-              "version": "[8.0.61, )"
-            },
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.7, )",
-              "autoReferenced": true
-            },
-            "log4net": {
-              "target": "Package",
-              "version": "[2.0.17, )"
-            },
-            "pythonnet": {
-              "target": "Package",
-              "version": "[3.0.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.iOS": {
-              "privateAssets": "all"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
-        },
         "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
@@ -210,15 +74,15 @@
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0-preview.6.24327.7, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.61, )"
+              "version": "[9.0.0-preview.6.24327.7, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.61, )"
+              "version": "[9.0.0-preview.6.24327.7, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -226,13 +90,17 @@
               "version": "[8.0.7, )",
               "autoReferenced": true
             },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.0-preview.6.24327.7, )"
+            },
             "log4net": {
               "target": "Package",
-              "version": "[2.0.17, )"
+              "version": "[3.0.0-preview.2, )"
             },
             "pythonnet": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.0-preview2024-08-05, )"
             }
           },
           "imports": [
@@ -257,8 +125,8 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         },
-        "net8.0-windows10.0.19041": {
-          "targetAlias": "net8.0-windows10.0.19041.0",
+        "net8.0-windows10.0.22000": {
+          "targetAlias": "net8.0-windows10.0.22000.0",
           "dependencies": {
             "FFMpegCore": {
               "target": "Package",
@@ -270,23 +138,27 @@
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0-preview.6.24327.7, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.61, )"
+              "version": "[9.0.0-preview.6.24327.7, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.61, )"
+              "version": "[9.0.0-preview.6.24327.7, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.0-preview.6.24327.7, )"
             },
             "log4net": {
               "target": "Package",
-              "version": "[2.0.17, )"
+              "version": "[3.0.0-preview.2, )"
             },
             "pythonnet": {
               "target": "Package",
-              "version": "[3.0.3, )"
+              "version": "[3.1.0-preview2024-08-05, )"
             }
           },
           "imports": [
@@ -303,7 +175,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.31, 10.0.19041.31]"
+              "version": "[10.0.22000.31, 10.0.22000.31]"
             }
           ],
           "frameworkReferences": {
@@ -318,21 +190,6 @@
         }
       },
       "runtimes": {
-        "android-arm": {
-          "#import": []
-        },
-        "android-arm64": {
-          "#import": []
-        },
-        "android-x64": {
-          "#import": []
-        },
-        "android-x86": {
-          "#import": []
-        },
-        "iossimulator-x64": {
-          "#import": []
-        },
         "maccatalyst-x64": {
           "#import": []
         },

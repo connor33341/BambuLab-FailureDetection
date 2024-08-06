@@ -7,6 +7,7 @@ public partial class ViewPrinter : ContentPage
 {
 	public ViewPrinter()
 	{
-		InitializeComponent();
+		//InitializeComponent();
 	}
+
 }

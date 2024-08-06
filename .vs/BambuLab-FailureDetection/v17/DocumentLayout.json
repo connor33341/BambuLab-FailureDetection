@@ -3,76 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\bambulab-failuredetection.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|solutionrelative:bambulab-failuredetection.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82397A03-CDAD-4FF8-B91B-D65C8A3F68E0}|lib\\pythonbridge\\pythonbridge.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\lib\\pythonbridge\\pythonbridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82397A03-CDAD-4FF8-B91B-D65C8A3F68E0}|lib\\pythonbridge\\pythonbridge.csproj|solutionrelative:lib\\pythonbridge\\pythonbridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\views\\viewprinter.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|solutionrelative:views\\viewprinter.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\views\\viewprinter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|solutionrelative:views\\viewprinter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\views\\newsettings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|solutionrelative:views\\newsettings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F061632C-8C77-4367-A7A0-2FD599F4B81E}|lib\\PythonAI\\PythonAI.pyproj|C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\PythonAI\\PythonAI.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{F061632C-8C77-4367-A7A0-2FD599F4B81E}|lib\\PythonAI\\PythonAI.pyproj|solutionrelative:lib\\PythonAI\\PythonAI.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\bambulab-failuredetection.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|solutionrelative:bambulab-failuredetection.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F061632C-8C77-4367-A7A0-2FD599F4B81E}|lib\\PythonAI\\PythonAI.pyproj|C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\PythonAI\\build.bat||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{F061632C-8C77-4367-A7A0-2FD599F4B81E}|lib\\PythonAI\\PythonAI.pyproj|solutionrelative:lib\\PythonAI\\build.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\properties\\publishprofiles\\msix-win10-x86.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|solutionrelative:properties\\publishprofiles\\msix-win10-x86.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF294F85-F7C0-4769-9C20-7145705D250E}|lib\\confighandler\\confighandler.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\lib\\confighandler\\confighandler.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{FF294F85-F7C0-4769-9C20-7145705D250E}|lib\\confighandler\\confighandler.csproj|solutionrelative:lib\\confighandler\\confighandler.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF294F85-F7C0-4769-9C20-7145705D250E}|lib\\confighandler\\confighandler.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\lib\\confighandler\\confighandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF294F85-F7C0-4769-9C20-7145705D250E}|lib\\confighandler\\confighandler.csproj|solutionrelative:lib\\confighandler\\confighandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\views\\newsettings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|solutionrelative:views\\newsettings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F061632C-8C77-4367-A7A0-2FD599F4B81E}|lib\\PythonAI\\PythonAI.pyproj|C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\PythonAI\\setup.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{F061632C-8C77-4367-A7A0-2FD599F4B81E}|lib\\PythonAI\\PythonAI.pyproj|solutionrelative:lib\\PythonAI\\setup.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F061632C-8C77-4367-A7A0-2FD599F4B81E}|lib\\PythonAI\\PythonAI.pyproj|C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\PythonAI\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{F061632C-8C77-4367-A7A0-2FD599F4B81E}|lib\\PythonAI\\PythonAI.pyproj|solutionrelative:lib\\PythonAI\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85D3B6CF-3491-4E74-BE1B-EB2C113D6302}|lib\\adminlib\\adminlib.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\lib\\adminlib\\adminlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85D3B6CF-3491-4E74-BE1B-EB2C113D6302}|lib\\adminlib\\adminlib.csproj|solutionrelative:lib\\adminlib\\adminlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81DDE58D-4709-40A3-8858-795035AF99BB}|BambuLab-FailureDetection.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85D3B6CF-3491-4E74-BE1B-EB2C113D6302}|lib\\adminlib\\adminlib.csproj|c:\\users\\conno\\github\\bambulab-failuredetection\\lib\\adminlib\\adminlib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{85D3B6CF-3491-4E74-BE1B-EB2C113D6302}|lib\\adminlib\\adminlib.csproj|solutionrelative:lib\\adminlib\\adminlib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,238 +29,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ViewPrinter.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\Views\\ViewPrinter.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\ViewPrinter.xaml.cs",
-              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\Views\\ViewPrinter.xaml.cs",
-              "RelativeToolTip": "Views\\ViewPrinter.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T20:27:26.241Z",
+              "DocumentIndex": 1,
+              "Title": "BambuLab-FailureDetection",
+              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\BambuLab-FailureDetection.csproj",
+              "RelativeDocumentMoniker": "BambuLab-FailureDetection.csproj",
+              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\BambuLab-FailureDetection.csproj",
+              "RelativeToolTip": "BambuLab-FailureDetection.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-06T02:03:54.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ViewPrinter.xaml",
-              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\Views\\ViewPrinter.xaml",
-              "RelativeDocumentMoniker": "Views\\ViewPrinter.xaml",
-              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\Views\\ViewPrinter.xaml",
-              "RelativeToolTip": "Views\\ViewPrinter.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-05T20:11:04.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "pythonbridge.cs",
-              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\pythonbridge\\pythonbridge.cs",
-              "RelativeDocumentMoniker": "lib\\pythonbridge\\pythonbridge.cs",
-              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\pythonbridge\\pythonbridge.cs",
-              "RelativeToolTip": "lib\\pythonbridge\\pythonbridge.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAA8AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T19:51:33.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "BambuLab-FailureDetection",
               "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\BambuLab-FailureDetection.csproj",
               "RelativeDocumentMoniker": "BambuLab-FailureDetection.csproj",
               "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\BambuLab-FailureDetection.csproj",
               "RelativeToolTip": "BambuLab-FailureDetection.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-05T01:36:16.726Z",
+              "WhenOpened": "2024-08-06T00:33:02.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-25T23:39:08.086Z",
+              "DocumentIndex": 2,
+              "Title": "MSIX-win10-x86.pubxml",
+              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\Properties\\PublishProfiles\\MSIX-win10-x86.pubxml",
+              "RelativeDocumentMoniker": "Properties\\PublishProfiles\\MSIX-win10-x86.pubxml",
+              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\Properties\\PublishProfiles\\MSIX-win10-x86.pubxml",
+              "RelativeToolTip": "Properties\\PublishProfiles\\MSIX-win10-x86.pubxml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-08-06T00:26:21.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\MainPage.xaml.cs*",
-              "RelativeToolTip": "MainPage.xaml.cs*",
-              "ViewState": "AQIAACsAAAAAAAAAAAAAAAEAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T23:40:02.117Z",
+              "DocumentIndex": 3,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AQIAAPoAAAAAAAAAAAAowAkBAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-08-06T00:07:28.538Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NewSettings.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\Views\\NewSettings.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\NewSettings.xaml.cs",
-              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\Views\\NewSettings.xaml.cs",
-              "RelativeToolTip": "Views\\NewSettings.xaml.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAH8AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T21:03:55.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BambuLab-FailureDetection.csproj",
-              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\BambuLab-FailureDetection.csproj",
-              "RelativeDocumentMoniker": "BambuLab-FailureDetection.csproj",
-              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\BambuLab-FailureDetection.csproj",
-              "RelativeToolTip": "BambuLab-FailureDetection.csproj",
-              "ViewState": "AQIAADQAAAAAAAAAAAASwDwAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "adminlib",
+              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\adminlib\\adminlib.csproj",
+              "RelativeDocumentMoniker": "lib\\adminlib\\adminlib.csproj",
+              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\adminlib\\adminlib.csproj",
+              "RelativeToolTip": "lib\\adminlib\\adminlib.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-05T01:46:13.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "build.bat",
-              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\PythonAI\\build.bat",
-              "RelativeDocumentMoniker": "lib\\PythonAI\\build.bat",
-              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\PythonAI\\build.bat",
-              "RelativeToolTip": "lib\\PythonAI\\build.bat",
-              "ViewState": "AQIAACsAAAAAAAAAAAAAAAkAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000614|",
-              "WhenOpened": "2024-08-03T21:30:13.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "confighandler.cs",
-              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\confighandler\\confighandler.cs",
-              "RelativeDocumentMoniker": "lib\\confighandler\\confighandler.cs",
-              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\confighandler\\confighandler.cs",
-              "RelativeToolTip": "lib\\confighandler\\confighandler.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAuwDEAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T23:57:20.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PythonAI.py",
-              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\PythonAI\\PythonAI.py",
-              "RelativeDocumentMoniker": "lib\\PythonAI\\PythonAI.py",
-              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\PythonAI\\PythonAI.py",
-              "RelativeToolTip": "lib\\PythonAI\\PythonAI.py",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-08-03T21:21:22.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "confighandler",
-              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\confighandler\\confighandler.csproj",
-              "RelativeDocumentMoniker": "lib\\confighandler\\confighandler.csproj",
-              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\confighandler\\confighandler.csproj",
-              "RelativeToolTip": "lib\\confighandler\\confighandler.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-05T17:33:51.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "NewSettings.xaml",
-              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\Views\\NewSettings.xaml",
-              "RelativeDocumentMoniker": "Views\\NewSettings.xaml",
-              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\Views\\NewSettings.xaml",
-              "RelativeToolTip": "Views\\NewSettings.xaml",
-              "ViewState": "AQIAAA8AAAAAAAAAAIBZwCUAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-26T20:13:06.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "setup.py",
-              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\PythonAI\\setup.py",
-              "RelativeDocumentMoniker": "lib\\PythonAI\\setup.py",
-              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\PythonAI\\setup.py",
-              "RelativeToolTip": "lib\\PythonAI\\setup.py",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-08-03T21:22:53.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AQIAAAoAAAAAAAAAAABhwCEAAAAFAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG/SURBVDhPrZRNTgIxFMerDIaEhHgU97JxwUKGGaNeQJdyCY0XUBDWGhg4AB\u002BuvQk7OQCRFTP1fXWmMxUMCT94ee177eu/LVQdFK31kTSJ0WgEIa0SMJ2A6QTHcF9iicQqlYpa/6zv2\u002B2HD5nuEkWR/l4udRzHZBtjGzFor1YrPR6P9WKx0MNhpN96vTuZThyLJ1AJLK/iJFFxjBanBsXIozqkWq2qev1c1Wq19063e0ZBwBNP4JaQ6WRC/i8ajQb5wWBAvnxyghpOqQPkC8L5IEEQKjgxaqOTFsCd65tb6nmlkur1\u002BxwXCgX58KfT7QptwvCK52wrSLcJvtUKOABkQ6HFXwbGsmMRBkchzpjNphLZDSrEn5G1qnsp\u002BPEtheloXouRnXDTTjhb5tXmeyg0IgzuliHp\u002By0OANbiOCDXp1IYo3mMUxBT8/mMA/8QhGH6ZzC4Zwi5ZqoQB9M3h62I/\u002B/SAQpniBmtPvdQyGeYUdgyX8pl05eIBSxmTzQYEYbc42AuJQWLGJNQEcrJG4A4BTHneSW2sqfKOyybkxXMPbAvrx3IsyLzkPJFmUcWYtDntjG6lIvnp8cvKXNIlPoFvstpJRlQPIAAAAAASUVORK5CYII=",
-              "WhenOpened": "2024-08-03T21:52:08.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "adminlib.cs",
-              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\adminlib\\adminlib.cs",
-              "RelativeDocumentMoniker": "lib\\adminlib\\adminlib.cs",
-              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\adminlib\\adminlib.cs",
-              "RelativeToolTip": "lib\\adminlib\\adminlib.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAjwBIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T20:16:06.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T23:26:26.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "requirements.txt",
-              "DocumentMoniker": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\PythonAI\\requirements.txt",
-              "RelativeDocumentMoniker": "lib\\PythonAI\\requirements.txt",
-              "ToolTip": "C:\\Users\\conno\\GitHub\\BambuLab-FailureDetection\\lib\\PythonAI\\requirements.txt",
-              "RelativeToolTip": "lib\\PythonAI\\requirements.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-08-03T21:25:22.544Z",
+              "WhenOpened": "2024-08-06T00:19:14.277Z",
               "EditorCaption": ""
             }
           ]

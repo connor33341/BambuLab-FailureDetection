@@ -1,6 +1,4 @@
-﻿#define USEPYD
-//#define Beta
-
+﻿
 using adminlib;
 
 namespace BambuLab_FailureDetection
@@ -45,9 +43,7 @@ namespace BambuLab_FailureDetection
 
         private async void ViewButton_Clicked(object sender, EventArgs e)
         {
-#if Beta
             await Navigation.PushAsync(new Views.ViewPrinter());
-#endif
         }
     }
 

@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net8.0-android;net8.0-ios;net8.0-maccatalyst</TargetFrameworks>
-		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net8.0-windows10.0.19041.0</TargetFrameworks>
+		<TargetFrameworks>net8.0-maccatalyst</TargetFrameworks>
+		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net8.0-windows10.0.22000.0</TargetFrameworks>
 		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
 		<!-- <TargetFrameworks>$(TargetFrameworks);net8.0-tizen</TargetFrameworks> -->
 
@@ -40,7 +40,7 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 		<GenerateDocumentationFile>False</GenerateDocumentationFile>
 		<DocumentationFile>docs\generated</DocumentationFile>
-		<GenerateAppInstallerFile>True</GenerateAppInstallerFile>
+		<GenerateAppInstallerFile>False</GenerateAppInstallerFile>
 		<AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
 		<PackageCertificateThumbprint>2CA610D84BA63F77FB7886055323B41EF503EB25</PackageCertificateThumbprint>
 		<AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
@@ -72,12 +72,13 @@
 
 	<ItemGroup>
 		<PackageReference Include="FFMpegCore" Version="5.1.0" />
-		<PackageReference Include="log4net" Version="2.0.17" />
-		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
-		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+		<PackageReference Include="log4net" Version="3.0.0-preview.2" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="9.0.0-preview.6.24327.7" />
+		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="9.0.0-preview.6.24327.7" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0-preview.6.24327.7" />
 		<PackageReference Include="MQTTnet" Version="4.3.6.1152" />
-		<PackageReference Include="pythonnet" Version="3.0.3" />
+		<PackageReference Include="pythonnet" Version="3.1.0-preview2024-08-05" />
+		<PackageReference Include="System.Text.Json" Version="9.0.0-preview.6.24327.7" />
 	</ItemGroup>
 
 	<ItemGroup>
